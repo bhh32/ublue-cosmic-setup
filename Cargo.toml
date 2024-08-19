@@ -1,0 +1,10 @@
+[package]
+name = "ublue-cosmic-setup"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bryan Hyland (bhh32) <bryan.hyland32@gmail.com>"]
+description = "CLI utility to make Universal Blue Cosmic edition alpha daily drivable."
+
+[dependencies]
+clap = { version = "4.5.15", features = ["derive"] }
+rpassword = "7.3.1"
